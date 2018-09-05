@@ -1,3 +1,8 @@
+### 要求
+1 .php 7.1以上
+2 php.ini 开放 proc_open exec shell_exec
+
+
 ### 第一个座位不能选择
 ```
 1. 配置 .env
