@@ -22,3 +22,18 @@
 ```
 PS: screen and user 需要填充数据
 ```
+###调试信息
+```
+详细页面出现错误
+
+C:\phpStudy\WWW\9.com\cinema-master\app\Http\Controllers\HomeController.php
+
+78行
+        $cinemas = $this->getApi($url);
+        dd($cinemas);
+        
+原因是        //获取影院信息
+        $url = 'http://m.maoyan.com/cinemas.json';
+        猫眼的api失效了
+
+```
